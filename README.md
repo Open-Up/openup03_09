@@ -19,7 +19,9 @@ curl -XGET http://127.0.0.1:4567/products
 ## Topic zero : Get to know the application
 
 Question 1 : Clone this repository
+
 Question 2 : run it (JRE 8 + maven 3 required)
+
 Question 3 : Create products and make purchases
 
  - Is it fast ?
@@ -35,7 +37,9 @@ We will now read the code. The code is composed of :
 ## Topic one : Move application to the CQRS pattern
 
 Question 0 : Install kafka using spotify/kafka docker image and create a topic.
+
 Question 1 & 2 : src/main/java/com/linagora/openup/cqrs/logic/cqrs/CQRSPurchaseManager.java
+
 Question 3 : src/main/java/com/linagora/openup/cqrs/web/WebServer.java
 
  - What are are benefits ? Drawbacks ?
@@ -43,7 +47,9 @@ Question 3 : src/main/java/com/linagora/openup/cqrs/web/WebServer.java
 ## Topic two : Replay
 
 Question 1 : Restart your application. List the product and read the account. What do you observe ? Then create again your products.
+
 Question 2 : Following https://metabroadcast.com/blog/resetting-kafka-offsets reset your kafka topic to the beginning.
+
 Question 3 : Read the account. What do you observe ?
 
 ## Topic three : composability
