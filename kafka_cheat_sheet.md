@@ -95,3 +95,9 @@ import kafka.message.MessageAndMetadata;
 import kafka.producer.KeyedMessage;
 import kafka.producer.ProducerConfig;
 ```
+
+Creating a Thread pool (reminder) : 
+
+```
+        Executors.newFixedThreadPool(4);
+```
